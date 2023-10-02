@@ -6,28 +6,26 @@
 .panel-img{
     background-size: contain;
 }
-.navbar{
+#navbar{
     position: sticky;
     top: 0;
+    overflow: hidden;
     height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 2;
-}
-header{
-    margin-bottom: 55px;
 }
 .nav-logo{
+    position: sticky;
+    top: 0;
     height: 50px;
     width: 100px;
 }
 .logo{
+    position: sticky;
+    top: 0;
     background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
@@ -126,8 +124,6 @@ header{
     color: white;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    width: 100%;
 }
 .panel-ops p{
     display: inline;
@@ -150,9 +146,6 @@ header{
     height: 35rem;
     background-image: url(panel.jpeg);
     background-size: cover;
-    display: flex;
-    align-items:end;
-    justify-content: center;
 }
 .hero-text{
     background-color: rgba(255, 255, 255, 0.608);
@@ -162,6 +155,9 @@ header{
     justify-content: center;
     width: 80%;
     margin-bottom: 25px;
+    position: relative;
+    top: 350px;
+    left: 150px;
 }
 .hero-text a{
     color: #007185;
@@ -169,10 +165,11 @@ header{
 }
 
 .shop-section{
+    height: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
+    background-color: #ff3300;
     
 }
 .box{
@@ -182,6 +179,22 @@ header{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+}
+.box1{
+    position: relative;
+    top: -150px;
+}
+.box2{
+    position: relative;
+    top: -150px;
+}
+.box3{
+    position: relative;
+    top: -150px;
+}
+.box4{
+    position: relative;
+    top: -150px;
 }
 .box-img{
     height: 300px;
