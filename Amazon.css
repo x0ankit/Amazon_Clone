@@ -3,6 +3,9 @@
     font-family: Arial;
     border: border-box;
 }
+.panel-img{
+    background-size: contain;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -10,13 +13,20 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+header{
+    margin-bottom: 55px;
 }
 .nav-logo{
     height: 50px;
     width: 100px;
 }
 .logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(/Amazon/amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -108,12 +118,14 @@
 /* Panel */
 
 .panel{
-    height: 40px;
+    height: 45px;
     background-color: #222f3d;
     display: flex;  
     color: white;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    width: 100%;
 }
 .panel-ops p{
     display: inline;
@@ -134,7 +146,7 @@
 .hero-section{
     width: 100%;
     height: 35rem;
-    background-image: url(panel.jpeg);
+    background-image: url(/Amazon/panel.jpeg);
     background-size: cover;
     display: flex;
     align-items:end;
@@ -172,6 +184,7 @@
 .box-img{
     height: 300px;
     background-size: contain;
+    /* display: flex; */
      
 }
 .box-content{
@@ -239,13 +252,13 @@ ul{
     height: 70px;
     background-color:#222f3d;
     color: white;
+    /* border-top:0.4px solid white; */
     height: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(/Amazon/amazon_logo.png);
     background-size: cover; 
     height: 50px;
     width: 100px;
